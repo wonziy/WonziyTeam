@@ -1,9 +1,5 @@
 {
-  "status": "active",
-  "version": "2.5.0",
-  "lib_url": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/libAkAudioVisiual.so",
-  "update_message": "New features added!",
-  "maintenance": false,
-  "min_android": 21,
-  "max_android": 34
+  "active": true,
+  "version": "1.0",
+  "url": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/libAkAudioVisiual.so"
 }
