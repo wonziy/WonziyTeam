@@ -1,0 +1,8 @@
+{
+  "maintenance_mode": false,
+  "maintenance_message": "Mod is currently under maintenance. Please try again later.",
+  "lib_version": "1.0.0",
+  "lib_url": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/libAkAudioVisiual.so",
+  "force_update": false,
+  "app_name": "Wonziy Team"
+}
