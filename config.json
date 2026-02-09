@@ -1,5 +1,23 @@
 {
-  "active": true,
-  "version": "1.0",
-  "url": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/libAkAudioVisiual.so"
+  "app_name": "WONZIYTEAM",
+  "version": "1.0.0",
+  "mod_review": true,
+  "force_update": false,
+  "message": "New update available",
+  "mods": [
+    {
+      "name": "Audio Visualizer",
+      "version": "2.1.0",
+      "description": "Real-time audio visualization with effects",
+      "author": "WonziyTeam",
+      "file_size": 5242880
+    },
+    {
+      "name": "Game Enhancement",
+      "version": "1.5.3",
+      "description": "Improve game performance and graphics",
+      "author": "WonziyTeam",
+      "file_size": 7340032
+    }
+  ]
 }
