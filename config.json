@@ -1,8 +1,46 @@
 {
-  "mod_name": "Wonziy Team Mod",
-  "mod_version": "1.0.0",
-  "enabled": true,
+  "mod_name": "WONZIY TEAM MOD",
+  "version": "2.0.0",
+  "edition": "Premium",
   "maintenance": false,
-  "min_game_version": "1.0.0",
-  "lib_url": "https://github.com/wonziy/WonziyTeam/raw/main/libAkAudioVisual.so"
+  "enabled": true,
+  
+  "colors": {
+    "primary": "#6A11CB",
+    "success": "#00FF88",
+    "danger": "#FF416C",
+    "warning": "#FFCC00",
+    "info": "#2575FC"
+  },
+  
+  "buttons": [
+    {
+      "text": "KEEP MOD ENABLED",
+      "color": "#00B09B"
+    },
+    {
+      "text": "DISABLE MOD", 
+      "color": "#FF416C"
+    },
+    {
+      "text": "MOD FEATURES",
+      "color": "#2575FC"
+    }
+  ],
+  
+  "features": [
+    "Enhanced Audio Quality",
+    "Premium Visual Effects", 
+    "Performance Boost",
+    "Anti-Detection System",
+    "Custom Settings",
+    "Real-time Statistics",
+    "Auto Update System",
+    "Multiplayer Support"
+  ],
+  
+  "urls": {
+    "config": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/config.json",
+    "library": "https://github.com/wonziy/WonziyTeam/raw/main/libAkAudioVisiual.so"
+  }
 }
