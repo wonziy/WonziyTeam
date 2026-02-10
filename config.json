@@ -1,23 +1,30 @@
 {
-  "app_name": "WONZIYTEAM",
-  "version": "1.0.0",
-  "mod_review": true,
-  "force_update": false,
-  "message": "New update available",
-  "mods": [
-    {
-      "name": "Audio Visualizer",
-      "version": "2.1.0",
-      "description": "Real-time audio visualization with effects",
-      "author": "WonziyTeam",
-      "file_size": 5242880
-    },
-    {
-      "name": "Game Enhancement",
-      "version": "1.5.3",
-      "description": "Improve game performance and graphics",
-      "author": "WonziyTeam",
-      "file_size": 7340032
-    }
-  ]
+  "mod_name": "AkAudioVisual Mod",
+  "mod_version": "1.0.0",
+  "enabled": true,
+  "maintenance": false,
+  "min_game_version": "1.5.0",
+  "max_game_version": "2.0.0",
+  "lib_url": "https://github.com/wonziy/WonziyTeam/raw/main/libAkAudioVisual.so",
+  "features": {
+    "audio_hack": true,
+    "visual_effects": true,
+    "premium_features": false,
+    "auto_update": true
+  },
+  "settings": {
+    "volume_boost": 3,
+    "visual_intensity": 2,
+    "anti_ban": true,
+    "hide_mod": true
+  },
+  "messages": {
+    "welcome": "AkAudioVisual Mod v1.0.0 aktif!",
+    "update_available": "Yeni güncelleme var!",
+    "maintenance": "Mod bakımda, lütfen bekleyin...",
+    "disabled": "Mod geçici olarak devre dışı."
+  },
+  "telegram_group": "https://t.me/yourgroup",
+  "discord_server": "https://discord.gg/yourdiscord",
+  "developer": "wonziy"
 }
