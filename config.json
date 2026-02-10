@@ -2,33 +2,97 @@
   "mod_name": "WONZIY TEAM MOD",
   "version": "2.0.0",
   "edition": "Premium",
-  "maintenance": true,
+  
+  "under_review": false,
   "enabled": true,
+  "maintenance": false,
+  
+  "review_status": {
+    "status": "UNDER_REVIEW",
+    "message": "Mod is under review",
+    "icon": "🔍",
+    "color": "#FFA500"
+  },
+  
+  "active_status": {
+    "status": "ACTIVE",
+    "message": "Mod is active and working",
+    "icon": "✅",
+    "color": "#00FF88"
+  },
   
   "colors": {
     "primary": "#6A11CB",
+    "secondary": "#2575FC",
     "success": "#00FF88",
     "danger": "#FF416C",
-    "info": "#2575FC"
+    "warning": "#FFA500",
+    "info": "#00B09B"
   },
   
-  "features": [
-    "Enhanced Audio Quality",
-    "Premium Visual Effects",
-    "Performance Boost",
-    "Anti-Detection System",
-    "Custom Settings",
-    "Real-time Statistics",
-    "Auto Update System",
-    "Multiplayer Support"
-  ]
-}    "Real-time Statistics",
-    "Auto Update System",
-    "Multiplayer Support"
+  "buttons": [
+    {
+      "text": "KEEP MOD ENABLED",
+      "color": "#00B09B",
+      "action": "enable"
+    },
+    {
+      "text": "DISABLE MOD",
+      "color": "#FF416C",
+      "action": "disable"
+    },
+    {
+      "text": "MOD FEATURES",
+      "color": "#2575FC",
+      "action": "features"
+    }
   ],
+  
+  "review_features": [
+    "🔍 Enhanced Audio Quality (Under Review)",
+    "🔍 Premium Visual Effects (Under Review)",
+    "🔍 Performance Boost (Under Review)",
+    "🔍 Anti-Detection System (Under Review)",
+    "🔍 Custom Settings (Under Review)",
+    "🔍 Real-time Statistics (Under Review)",
+    "🔍 Auto Update System (Under Review)",
+    "🔍 Multiplayer Support (Under Review)",
+    "🔍 No Root Required (Under Review)",
+    "🔍 24/7 Support (Under Review)"
+  ],
+  
+  "active_features": [
+    "✅ Enhanced Audio Quality",
+    "✅ Premium Visual Effects",
+    "✅ Performance Boost",
+    "✅ Anti-Detection System",
+    "✅ Custom Settings",
+    "✅ Real-time Statistics",
+    "✅ Auto Update System",
+    "✅ Multiplayer Support",
+    "✅ No Root Required",
+    "✅ 24/7 Support"
+  ],
+  
+  "settings": {
+    "auto_update": true,
+    "anti_ban": true,
+    "notification": true,
+    "debug_mode": false
+  },
   
   "urls": {
     "config": "https://raw.githubusercontent.com/wonziy/WonziyTeam/main/config.json",
-    "library": "https://github.com/wonziy/WonziyTeam/raw/main/libAkAudioVisiual.so"
+    "library": "https://github.com/wonziy/WonziyTeam/raw/main/libAkAudioVisual.so",
+    "update": "https://api.wonziy.com/check-update",
+    "support": "https://t.me/WonziyTeam"
+  },
+  
+  "metadata": {
+    "team": "WONZIY TEAM",
+    "developer": "WonziyYeniden",
+    "build_date": "2023-11-15",
+    "active_users": 15432,
+    "status": "ACTIVE"
   }
 }
